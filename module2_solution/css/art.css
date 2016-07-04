@@ -1,0 +1,109 @@
+* {
+  box-sizing: border-box;
+  font-family: "Times New Roman", Georgia, Serif;
+}
+h1 {
+  margin-bottom: 15px;
+  text-align: center;
+  font-size: 175%
+}
+
+p {
+  width: 90%;
+  /*height: 150px;*/
+  margin:40px;
+  margin-right: auto;
+  margin-left: auto;
+  color: black;
+}
+div{
+	background-color: grey;
+	/*margin: 40px 36px 40px 36px;*/
+	
+}
+
+h2{
+  font-size: 125%;
+  border: 1px solid black;
+  background-color: white;
+  position: relative;
+  top:-17px;
+  right:0;
+  float: right;
+  width:75px;
+  text-align: center;
+}
+#first{
+	background-color: red;
+}
+#second{
+	background-color: orange;
+}
+#third{
+	background-color: green;
+}
+
+/* Simple Responsive Framework. */
+.row {
+  width: 100%;
+  
+}
+
+/********** For Desktop only **********/
+@media (min-width: 992px) {
+	
+  .desktop{
+    float: left;
+    border: 1px solid black;
+    background-color: grey;
+  }
+  .desktop {
+    width: 28.88%;
+  }
+   div#section1{
+	   margin:40px 30px 40px 32px;
+   }
+   div#section2{
+	   margin:40px 32px 40px 0px;
+   }
+   div#section3{
+	   margin:40px 30px 40px 0px;
+	   /*float:right*/;
+   }
+}
+
+/**********For Tablet Only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  .tablet1, .tablet2{
+    float: left;
+    border: 1px solid black;
+    background-color: grey;
+  }
+
+  .tablet1 {
+    width: 41%;
+  }
+  .tablet2 {
+    width: 85.80%;
+  }
+  div#section1{
+	   margin:40px 15px 20px 40px ;
+   }
+   div#section2{
+	   margin:40px 30px 20px 15px;
+   }
+   div#section3{
+	   margin: 15px 30px 40px 40px;
+   }
+}
+
+/**********For Mobile Phones Only **********/
+@media (max-width: 767px) {
+  .mobile{
+    float: left;
+    border: 1px solid black;
+    background-color: grey;
+	width: 90%%;
+	margin: 20px 30px 20px 30px;
+  }
+}

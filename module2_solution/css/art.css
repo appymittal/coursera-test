@@ -2,6 +2,10 @@
   box-sizing: border-box;
   font-family: "Times New Roman", Georgia, Serif;
 }
+body{
+  margin:0;
+}
+  
 h1 {
   margin-bottom: 15px;
   text-align: center;
@@ -18,6 +22,7 @@ p {
 }
 div{
 	background-color: grey;
+  display: block;
 	/*margin: 40px 36px 40px 36px;*/
 	
 }
@@ -33,6 +38,7 @@ h2{
   width:75px;
   text-align: center;
 }
+
 #first{
 	background-color: red;
 }
@@ -45,8 +51,7 @@ h2{
 
 /* Simple Responsive Framework. */
 .row {
-  width: 100%;
-  
+  width:100%;
 }
 
 /********** For Desktop only **********/
